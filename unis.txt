@@ -1,0 +1,71 @@
+[
+        {
+            id: 0,
+            name: "Elisia",
+            email: "elisia@unis.kr",
+        },
+        {
+            id: 1,
+            name: "Gehlee",
+            email: "gehlee@unis.kr",
+        },
+        {
+            id: 2,
+            name: "Seowon",
+            email: "seowon@unis.kr",
+        },
+        {
+            id: 3,
+            name: "Yoona",
+            email: "yoona@unis.kr",
+        },
+        {
+            id: 4,
+            name: "Yunha",
+            email: "yunha@unis.kr",
+        },
+        {
+            id: 5,
+            name: "Kotoko",
+            email: "kotoko@unis.kr",
+        },
+        {
+            id: 7,
+            name: "Nana",
+            email: "nana@unis.kr",
+        },
+        {
+            id: 7,
+            name: "Hyeonju",
+            email: "hyeonju@unis.kr",
+        },
+
+    ]
+
+mutation{
+  signup(name: "Elisia", email: "elisia@unis.kr", password: "user1234"){
+    name
+  }
+  signup(name: "Nana", email: "Nana@unis.kr", password: "user1234"){
+    name
+  }
+  signup(name: "Hyeonju", email: "Hyeonju@unis.kr", password: "user1234"){
+    name
+  }
+  signup(name: "Gehlee", email: "Gehlee@unis.kr", password: "user1234"){
+    name
+  }
+  signup(name: "Yoona", email: "elisia@unis.kr", password: "user1234"){
+    name
+  }
+  signup(name: "Yunha", email: "Yunha@unis.kr", password: "user1234"){
+    name
+  }
+  signup(name: "Kotoko", email: "Kotoko@unis.kr", password: "user1234"){
+    name
+  }
+  signup(name: "Seowon", email: "Seowon@unis.kr", password: "user1234"){
+    name
+  }
+  
+}

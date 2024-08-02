@@ -1,0 +1,16 @@
+{
+  "name": "user-crud",
+  "version": "1.0.0",
+  "description": "User CRUD for Blog Application using MERN Stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.9.0"
+  }
+}
